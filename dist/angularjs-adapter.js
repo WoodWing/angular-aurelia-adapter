@@ -6,13 +6,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 (function (factory) {
     if (typeof module === "object" && typeof module.exports === "object") {
-        var v = factory(require, exports);
+        var v = factory(exports);
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
         define(["require", "exports", "aurelia-framework", "./angularjs-compiler"], factory);
     }
-})(function (require, exports) {
+})(function (exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var aurelia_framework_1 = require("aurelia-framework");
