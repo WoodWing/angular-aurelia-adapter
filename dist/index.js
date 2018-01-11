@@ -14,6 +14,6 @@
     Object.defineProperty(exports, "__esModule", { value: true });
     __export(require("./angular-aurelia-adapter"));
     exports.configure = function (aurelia) {
-        aurelia.globalResources("angular-aurelia-adapter/angularjs-adapter");
+        aurelia.globalResources("angular-aurelia-adapter");
     };
 });
